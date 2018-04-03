@@ -21,5 +21,8 @@ ansible-playbook -i <path_to_inventory_file> /usr/share/ansible/openshift-ansibl
 
 git clone https://github.com/RedHatWorkshops/openshiftv3-ops-workshop
 
+ansible-playbook -i <path_to_inventory_file> /usr/share/ansible/openshift-ansible/playbooks/openshift-metrics/config.yml
+
+
 ```
 
