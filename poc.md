@@ -5,6 +5,9 @@ ansible all -m shell -a "getenforce" -i hosts
 ansible all -m shell -a "ping -c 1 master1" -i hosts
 ansible all -m shell -a "yum repolist " -i hosts
 ansible all -m shell -a "wipefs -o 0x1fe /dev/sdb " -i hosts
+
+ansible all -m shell -a "rm -fr /var/lib/heketi /var/lib/glusterfs; wipefs --all /dev/sdc -f" -i hosts
+
 ```
 https://docs.openshift.com/container-platform/3.9/install_config/install/prerequisites.html
 
