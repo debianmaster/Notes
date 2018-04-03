@@ -16,5 +16,7 @@ ansible-playbook -i <path_to_inventory_file> /usr/share/ansible/openshift-ansibl
 
 ansible-playbook -i <path_to_inventory_file> /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml
 
+git clone https://github.com/RedHatWorkshops/openshiftv3-ops-workshop
+
 ```
 
