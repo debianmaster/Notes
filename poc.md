@@ -6,5 +6,5 @@ ansible all -m shell -a "ping -c 1 master1" -i hosts
 ```
 
 
-https://docs.openshift.org/latest/install_config/install/prerequisites.html
+https://docs.openshift.com/container-platform/3.9/install_config/install/prerequisites.html
 
