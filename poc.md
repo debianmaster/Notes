@@ -8,3 +8,5 @@ ansible all -m shell -a "wipefs -o 0x1fe /dev/sdb " -i hosts
 ```
 https://docs.openshift.com/container-platform/3.9/install_config/install/prerequisites.html
 
+https://raw.githubusercontent.com/christianh814/openshift-toolbox/master/ansible_hostfiles/multimaster
+
