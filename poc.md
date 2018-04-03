@@ -10,3 +10,11 @@ https://docs.openshift.com/container-platform/3.9/install_config/install/prerequ
 
 https://raw.githubusercontent.com/christianh814/openshift-toolbox/master/ansible_hostfiles/multimaster
 
+
+```
+ansible-playbook -i <path_to_inventory_file> /usr/share/ansible/openshift-ansible/playbooks/prerequisites.yml
+
+ansible-playbook -i <path_to_inventory_file> /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml
+
+```
+
