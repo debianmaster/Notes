@@ -1,6 +1,6 @@
 name: pr-deployment
 on:
-  push:
+  pull_request:
 
 jobs:
   deploy-check:
